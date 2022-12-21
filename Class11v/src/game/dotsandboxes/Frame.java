@@ -23,9 +23,10 @@ public class Frame extends JFrame{
 	
 	
 	public static void main(String[] args) {
-		Integer choises[]= {6,8,10};
-		Integer i=(Integer)JOptionPane.showInputDialog(null,"Choose game layout:","Input",JOptionPane.INFORMATION_MESSAGE,null,choises, choises[0]);
-		if(i==null)return;
-		new Frame(i*2-1);
+//		Integer choises[]= {6,8,10};
+//		Integer i=(Integer)JOptionPane.showInputDialog(null,"Choose game layout:","Input",JOptionPane.INFORMATION_MESSAGE,null,choises, choises[0]);
+//		if(i==null)return;
+//		new Frame(i*2-1);
+		System.out.println("Hello there.");
 	}
 }
